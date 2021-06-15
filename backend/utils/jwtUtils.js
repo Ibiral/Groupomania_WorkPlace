@@ -1,10 +1,8 @@
-// This file handles the jsonwebtoken creation and decoding
-
-//import
+// Gestion des tokens
 let jwt = require('jsonwebtoken')
 
 module.exports = {
-  // Token creation
+  // Création du token
   tokenSign : process.env.TOKEN,
   generateToken: function (user) {
     return jwt.sign({
@@ -16,7 +14,7 @@ module.exports = {
         expiresIn: '8h'
       })
   },
-  // Token decoding to retrieve the id
+  // Récupération de l'id utilisateur
   getUserId: function (data) {
     if (data.length > 1) {
       let token = data.split(' ')[1];
