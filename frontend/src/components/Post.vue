@@ -12,7 +12,7 @@
                 <div class="reaction-infos-singlepost onePostElt">
                     <p class="onePostElt">
                         <!-- Afficher le nombre de commentaires sur une publication -->
-                        <span>{{ post.Comments.length }} Commentaires <font-awesome-icon :icon="['fas', 'comment']" /></span>
+                        <span>{{ post.Comments.length }} Commentaire(s) <font-awesome-icon :icon="['fas', 'comment']" /></span>
                     </p>
                     <p class="likeButton onePostElt">
                         <!-- Afficher le nombre de Like sur une publication -->

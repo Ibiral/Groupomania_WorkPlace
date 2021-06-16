@@ -17,7 +17,7 @@
             <form @submit.prevent="updateProfile" enctype="multipart/form-data" id="form" class="validation">
                 <div class="form-input">
                     <label for="Prenom"></label>
-                    <input type="text" v-model="firstName" name="Prenom" id="firstName" placeholder=" Nouveau prénom">
+                    <input type="text" v-model="firstName" name="Prenom" id="firstName" placeholder="Nouveau prénom">
                 </div>
                 <div class="form-input">
                     <label for="Nom"></label>

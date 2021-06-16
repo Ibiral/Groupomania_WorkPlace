@@ -12,7 +12,7 @@
             <div class="feed-onePostWall onePostWall-elements">
                 <p>
                     <!-- Affichage du nombre de commentaires-->
-                    <span @click="goToPost" id="commentaires-link">{{ comments.length }} Commentaires <font-awesome-icon :icon="['fas', 'comment']" /></span>
+                    <span @click="goToPost" id="commentaires-link">{{ comments.length }} Commentaire(s) <font-awesome-icon :icon="['fas', 'comment']" /></span>
                 </p>
                 <p class="likeButtonWall onePostWall-elements">
                     <!-- Affichage du nombre de Likes-->
