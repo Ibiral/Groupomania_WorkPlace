@@ -76,6 +76,8 @@ Vous devrez avoir cet affichage dans le terminal:
 ```
 Cliquer sur le lien pour accéder au navigateur qui affiche l'application.
 
+___
+
 #### Définir un utilisateur en tant qu'administrateur de l'application
 
 Tapez la ligne de commande suivante:
