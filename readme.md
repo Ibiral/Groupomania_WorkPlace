@@ -16,3 +16,7 @@ Voici la liste technologies utilisées dans ce projet:
 * nodemon: Version 2.0.7
 
 ### Frontend:
+
+* vue: Version 2.6.11
+* vue-router: Version 3.5.1
+* axios: Version 0.21.1
