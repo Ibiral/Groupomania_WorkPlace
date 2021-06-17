@@ -41,8 +41,7 @@ L'API devra écouter le PORT 3000
 
 ### Base de données MySQL
 
-Le nom de la base de données est "groupomania_database", 
-Si vous voulez changer son nom, allez dans le fichier config.json => database : "votre_nouveau_nom"
+Le nom de la base de données est "groupomania_database". Si vous voulez changer son nom, allez dans le fichier config.json => database : "votre_nouveau_nom"
 
 Prérequis: mySQL installé sur votre machine et connecté sur le port 3306.
 
