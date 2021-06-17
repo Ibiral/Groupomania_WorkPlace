@@ -76,4 +76,12 @@ Vous devrez avoir cet affichage dans le terminal:
 ```
 Cliquer sur le lien pour accéder au navigateur qui affiche l'application.
 
+#### Définir un utilisateur en tant qu'administrateur de l'application
+
+Tapez la ligne de commande suivante:
+
+```
+UPDATE users SET isAdmin= 1 where email = 'votre-email@email.fr';
+```
+
 #### Vous pouvez désormais utiliser l'application.
