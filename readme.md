@@ -45,7 +45,7 @@ Le nom de la base de données est "groupomania_database". Si vous voulez changer
 
 Prérequis: mySQL installé sur votre machine et connecté sur le port 3306.
 
-Créez la base de donnée avec Seequelize, en tapant cette commande dans le terminal du dossier backend:
+Créez la base de donnée avec Sequelize, en tapant cette commande dans le terminal du dossier backend:
 
 ```
 sequelize db:create
