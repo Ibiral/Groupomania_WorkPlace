@@ -56,3 +56,13 @@ Puis pour remplir cette base de données avec les tables existantes, tapez cette
 sequelize db:migrate
 ```
 Votre base de données est créée. 
+
+### Application Frontend
+
+Prérequis: vue-cli installé dans votre dossier. sinon l'installer avec la commande suivante:
+
+```
+npm install -g @vue/cli
+OU
+yarn global add @vue/cli
+```
