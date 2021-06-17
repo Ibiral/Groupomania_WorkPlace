@@ -41,4 +41,19 @@ L'API devra écouter le PORT 3000
 
 ### Base de données MySQL
 
-Le nom de la base de données 
+Le nom de la base de données est "groupomania_database", 
+Si vous voulez changer son nom, allez dans le fichier config.json => database : "votre_nouveau_nom"
+
+Prérequis: mySQL installé sur votre machine et connecté sur le port 3306.
+
+Créez la base de donnée avec Seequelize, en tapant cette commande dans le terminal du dossier backend:
+
+```
+sequelize db:create
+```
+Puis pour remplir cette base de données avec les tables existantes, tapez cette commande dans le même terminal:
+
+```
+sequelize db:migrate
+```
+Votre base de données est créée. 
