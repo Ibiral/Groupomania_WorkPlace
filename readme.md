@@ -36,4 +36,12 @@ Lancez l'API, en tapant cette commande dans le terminal:
 
 nodemon server
 
+```
+CREATE DATABASE groupomania;
+```
+
 L'API devra écouter le PORT 3000 
+
+### Base de données MySQL
+
+Le nom de la base de données 
