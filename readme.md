@@ -84,4 +84,4 @@ Tapez la ligne de commande suivante:
 UPDATE users SET isAdmin= 1 where email = 'votre-email@email.fr';
 ```
 
-#### Vous pouvez désormais utiliser l'application.
+#### Félicitations: vous pouvez désormais utiliser l'application.
