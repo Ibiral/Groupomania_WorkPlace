@@ -59,10 +59,21 @@ Votre base de données est créée.
 
 ### Application Frontend
 
-Prérequis: vue-cli installé dans votre dossier. sinon l'installer avec la commande suivante:
+Allez sur le dossier frontend et ouvrez un terminal. Pour installer les modules nécessaires, tapez la commande suivante:
 
 ```
-npm install -g @vue/cli
-OU
-yarn global add @vue/cli
+npm install
 ```
+Puis pour lancer l'application, tapez la commande suivante:
+```
+npm run serve
+```
+Vous devrez avoir cet affichage dans le terminal:
+
+```
+ App running at:
+  - Local:   http://localhost:8080/
+```
+Cliquer sur le lien pour accéder au navigateur qui affiche l'application.
+
+#### Vous pouvez désormais utiliser l'application.
