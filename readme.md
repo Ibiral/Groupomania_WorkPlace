@@ -29,15 +29,12 @@ Prérequis: Nodejs installé sur votre machine.
 Clonez ce Repository puis aller dans le dossier Backend et ouvrez un terminal. 
 
 Pour installer les modules nécessaires, tapez cette commande dans le terminal:
-
-npm install
-
-Lancez l'API, en tapant cette commande dans le terminal: 
-
-nodemon server
-
 ```
-CREATE DATABASE groupomania;
+npm install
+```
+Lancez l'API, en tapant cette commande dans le terminal: 
+```
+nodemon server
 ```
 
 L'API devra écouter le PORT 3000 
