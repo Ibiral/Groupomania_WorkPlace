@@ -20,3 +20,12 @@ Voici la liste technologies utilisées dans ce projet:
 * vue: Version 2.6.11
 * vue-router: Version 3.5.1
 * axios: Version 0.21.1
+___
+## Installation
+
+### API
+
+Prérequis: Nodejs installé sur votre machine.
+Clonez ce Repository puis aller dans le dossier Backend et ouvrez un terminal. 
+
+CREATE DATABASE groupomania;
